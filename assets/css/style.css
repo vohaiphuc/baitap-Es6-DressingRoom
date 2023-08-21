@@ -158,3 +158,27 @@ hr {
   border: none;
   padding-top: 30px;
 }
+
+/* PHUC */
+.well {
+  height: auto;
+}
+
+.cloth-container {
+  position: relative;
+}
+
+.cloth-container img {
+  position: absolute;
+}
+
+.bikinitop img,
+.bikinibottom img {
+  width: 241px;
+  left: 5px;
+}
+
+.background img {
+  width: 900px;
+  height: 1500px;
+}

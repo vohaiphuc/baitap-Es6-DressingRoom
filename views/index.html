@@ -43,8 +43,152 @@
           <ul class="nav nav-pills"></ul>
 
           <div class="well">
-            <!-- Tab panes -->
-            <div class="tab-content"></div>
+            <!-- Tabs -->
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  id="ao-tab"
+                  data-toggle="tab"
+                  href="#ao"
+                  role="tab"
+                  aria-controls="ao"
+                  aria-selected="true"
+                  >Áo</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="quan-tab"
+                  data-toggle="tab"
+                  href="#quan"
+                  role="tab"
+                  aria-controls="quan"
+                  aria-selected="false"
+                  >Quần</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="giay-tab"
+                  data-toggle="tab"
+                  href="#giay"
+                  role="tab"
+                  aria-controls="giay"
+                  aria-selected="false"
+                  >Giầy dép</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="tui-tab"
+                  data-toggle="tab"
+                  href="#tui"
+                  role="tab"
+                  aria-controls="tui"
+                  aria-selected="false"
+                  >Túi</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="day-chuyen-tab"
+                  data-toggle="tab"
+                  href="#day-chuyen"
+                  role="tab"
+                  aria-controls="day-chuyen"
+                  aria-selected="false"
+                  >Dây chuyền</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="toc-tab"
+                  data-toggle="tab"
+                  href="#toc"
+                  role="tab"
+                  aria-controls="toc"
+                  aria-selected="false"
+                  >Tóc</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="nen-tab"
+                  data-toggle="tab"
+                  href="#nen"
+                  role="tab"
+                  aria-controls="nen"
+                  aria-selected="false"
+                  >Nền</a
+                >
+              </li>
+            </ul>
+            <!-- Content -->
+            <div class="tab-content" id="myTabContent">
+              <div
+                class="tab-pane fade show active container"
+                id="ao"
+                role="tabpanel"
+                aria-labelledby="ao-tab"
+              >
+                ...
+              </div>
+              <div
+                class="tab-pane fade"
+                id="quan"
+                role="tabpanel"
+                aria-labelledby="quan-tab"
+              >
+                ...
+              </div>
+              <div
+                class="tab-pane fade"
+                id="giay"
+                role="tabpanel"
+                aria-labelledby="giay-tab"
+              >
+                ...
+              </div>
+              <div
+                class="tab-pane fade"
+                id="tui"
+                role="tabpanel"
+                aria-labelledby="tui-tab"
+              >
+                ...
+              </div>
+              <div
+                class="tab-pane fade"
+                id="day-chuyen"
+                role="tabpanel"
+                aria-labelledby="day-chuyen-tab"
+              >
+                ...
+              </div>
+              <div
+                class="tab-pane fade"
+                id="toc"
+                role="tabpanel"
+                aria-labelledby="toc-tab"
+              >
+                ...
+              </div>
+              <div
+                class="tab-pane fade"
+                id="nen"
+                role="tabpanel"
+                aria-labelledby="nen-tab"
+              >
+                ...
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-md-4">
@@ -76,8 +220,8 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="./../models/ListChosen.js"></script>
     <script src="./../models/ChoseItem.js"></script>
+    <script src="./../models/ListChosen.js"></script>
     <script src="./../utils/callData.js"></script>
     <script src="./../controllers/main.js"></script>
   </body>
